@@ -1,3 +1,6 @@
+h1{
+color: rgb(174, 25, 174) ;
+}
 h3{
     color: deeppink;
 }
@@ -10,3 +13,9 @@ body{
    .special{
     color: black;
    }     
+h3+p{
+    color: coral;
+}
+em+p{
+    color: magenta;
+}
