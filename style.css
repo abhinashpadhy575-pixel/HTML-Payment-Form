@@ -1,21 +1,92 @@
-h1{
-color: rgb(174, 25, 174) ;
+/* Body */
+body{
+    background-image: url("image.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 20px;
+    color: rgb(24, 217, 43 );
+    font-family: Arial, sans-serif;
 }
+
+/* Headings */
+h1{
+    color: rgb(174, 25, 174);
+}
+
+h2{
+    color: rgb(123, 0, 255);
+}
+
 h3{
     color: deeppink;
 }
-body{
-    background-color: rgb(0, 255, 119);
+
+/* Paragraph Colors */
+h3 + p{
+    color: rgb(24, 217, 43 );;
 }
-  h2{
-            color: rgb(123, 0, 255);
-        }
-   .special{
-    color: black;
-   }     
-h3+p{
-    color: coral;
-}
-em+p{
+
+em + p{
     color: magenta;
+}
+
+.special{
+    color: rgb(24, 217, 43);
+}
+
+/* Form Inputs */
+input,
+select{
+    padding: 8px;
+    margin: 5px 0;
+    border: 1px solid white;
+    border-radius: 5px;
+    background: rgba(255,255,255,0.2);
+    color: white;
+}
+
+/* Textarea */
+textarea{
+    width: 100%;
+    height: 120px;
+    padding: 10px;
+    background: rgba(255,255,255,0.15);
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    resize: vertical;
+}
+
+/* Fieldset */
+fieldset{
+    border: 2px solid white;
+    padding: 10px;
+    margin: 15px 0;
+}
+
+/* Submit Button */
+input[type="submit"]{
+    background-color: #00ff9d;
+    color: rgb(13, 71, 164);
+    border: none;
+    padding: 12px 25px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover{
+    background-color: #b413a2;
+    input[type="number"]:hover{
+    background-color: #b413a2;
+}
+}
+select{
+    background-color: #e97909;
+    color: rgb(63, 12, 216);
+    padding: 8px;
+    border-radius: 3px;
 }
